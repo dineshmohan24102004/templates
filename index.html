@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYHIGH</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        
+        .box {
+            width: 100%;  
+            padding: 20px;
+            background-color: seashell;
+        }
+
+        .fluid {
+            width: 100%;
+            background-color: rgb(229, 230, 173);
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .left {
+            font-size: 20px;
+        }
+
+        .right {
+            font-size: 20px;
+        }
+
+        .container {
+            width: 100%;
+            padding: 20px;
+            background: rgb(235, 229, 233);
+        }
+
+        .event-list {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .place-item{
+            background: white;
+            border: 1px solid;
+            width: 32%; 
+            margin-bottom: 20px; 
+            overflow: hidden;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .place-item img {
+            width: 80%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        .event-details {
+            padding: 20px;
+        }
+
+        .event-details h2 {
+            margin: 0;
+            padding: 10px;
+            color: #310f0f;
+        }
+
+        .event-details p {
+            margin: 0;
+            
+            color: black;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: red;
+            font-size: larger;
+            color: white;
+          
+        }
+  
+        form{
+            
+            margin: 50px 600px;
+            align-items: center;
+            background-color: rgb(235, 229, 233);
+        }
+
+
+
+
+     h1 {
+    text-align: center;
+    margin-bottom: 20px;
+     }
+
+    .form-group {
+    margin-bottom: 15px;
+     }
+
+    label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+     }
+
+
+
+     button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+
+     button:hover {
+    background-color: #0056b3;
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="fluid">
+            <div class="left">
+                SKYHIGH
+            </div>
+            <div class="right">
+                home | about  | book | service
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="fluid">
+            <div class="left">
+                <p>WELCOME TO SKYHIGH</p>
+                <h1>Effortless Travel Endless Possibilites</h1>
+            </div>
+            <div class="right">
+                <img src="flight.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 align="center">
+            Dream Destination At Unbeliveable Rates
+        </h1>
+        <p align="center">Book now, save 20% on your SKYHIGH flight!</p>
+        <hr><br><br>
+
+
+
+    </div>
+
+    <div class="container">
+        <div class="event-list">
+            
+            <div class="place-item">
+                <img src="Brazil.jpg" alt="Brazil">
+                <div class="event-details">
+                    <h2>Brazil</h2>
+                    <p><b>Brazil is a  natural areas being its most popular tourism product, a combination of leisure and recreation, mainly sun and beach, and adventure travel, as well as historic and cultural tourism.</b></p>
+                    
+                    <button type="submit">Book Now</button>
+                </div>
+            </div>
+
+            
+            <div class="place-item">
+                <img src="Dubai.jpg" alt="Dubai">
+                <div class="event-details">
+                    <h2>Dubai</h2>
+                    <p><b>Dubai is a city of skyscrapers, ports, and beaches, where big business takes place alongside sun-seeking tourism.</b></p>
+                    <br><br>
+                    <button type="submit">Book Now</button>
+
+                </div>
+            </div>
+
+            
+            <div class="place-item">
+                <img src="Taj Mahal.jpg" alt="Taj Mahal">
+                <div class="event-details">
+                    <h2>Taj Mahal</h2>
+                    <p><b>Taj Mahal is made of white marble. The monument is one of the seven wonders of the world and the symbol of Love</b></p>
+                    <br><br>
+                    <button type="submit" >Book Now</button>
+                </div>
+            </div>
+    </div>
+    </div>
+
+            <div class="container">
+                <div class="event-list">
+
+            <div class="place-item">
+                <img src="Moscow.jpg" alt="Moscow">
+                <div class="event-details">
+                    <h2>Moscow</h2>
+                    <p><b>ajestic churches, impressive historic fortresses, and palatial buildings: Moscow is a fascinating city whose emblematic architecture reflects the turbulent history that has defined Russia throughout the centuries.</b></p>
+                    <br><br>
+                    <button type="submit">Book Now</button>
+                </div>
+            </div>
+
+            
+            <div class="place-item">
+                <img src="Newyork.jpg" alt="Newyork">
+                <div class="event-details">
+                    <br><br>
+                    <h2>Newyork</h2>
+                    <p><b>New York City is a sightseer's paradise with many iconic landmarks, including the Statue of Liberty, Times Square, Central Park, and the Empire State Building. </b></p>
+                    <br><br><br>
+                    <button type="submit">Book Now</button>
+                </div>
+            </div>
+
+            
+            <div class="place-item">
+                <img src="paris.jpg" alt="paris">
+                <div class="event-details">
+                    <h2>paris</h2>
+                    <P><b>Paris is known for its beauty, with the Seine River flowing through its center.Paris is a major center of culture and business in Western Europe, and has been home to many great artists, writers, scholars, fashion designers, and chefs.</b></P>
+                    <br><br>
+                    <button type="submit" >Book Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="container1" align="center">
+        <h1>Flight Booking System</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="departure">Departure City:</label>
+                <select id="departure" name="departure" required>
+                    <option value="">Select Departure City</option>
+                    <option value="new-york">New York</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Taj Mahal">Taj Mahal</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="arrival">Arrival City:</label>
+                <select id="arrival" name="arrival" required>
+                    <option value="">Select Arrival City</option>
+                    <option value="new-york">New York</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="paris">paris</option>
+                    <option value="Moscow">Moscow</option>
+                </select>
+            </div>
+
+            
+
+            <div class="form-group">
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" max="10" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Search Flights</button>
+            </div>
+        </form>
+
+        <hr>
+        <div class="footer">
+        <p align="center">&copy; 2024 Explorer. All rights reserved.</p>
+        <p align="center">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Contact Us</a>
+        </p>
+    </div>
+</body>
+</html>
